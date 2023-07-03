@@ -1,0 +1,69 @@
+.toggle 
+  position: relative
+  width: 60px
+  height: 30px
+
+
+/* Стили для переключателя */
+.toggle input[type="checkbox"] 
+  display: none
+
+
+.toggle label 
+  display: inline-block
+  width: 54px
+  height: 30px
+  background-color: #F2F2F2
+  border-radius: 50px
+  position: relative
+  cursor: pointer
+  transition: background-color 0.3s ease
+
+
+.toggle label:before 
+
+  content: ''
+  position: absolute
+  top: 5px
+  left: 6px
+  width: 20px
+  height: 20px
+  border-radius: 50%
+  background-color: #fff
+  transition: background-color 0.3s ease
+
+
+.nav 
+  &-wrapper 
+    padding-top: 26px
+    padding-bottom: 26px
+  &-item 
+    font-style: normal
+    font-weight: 900
+    font-size: 16px
+    line-height: 19px
+    color: #333333
+    position: relative
+    &:hover
+      color: #333333
+      &::after
+        width: 100%
+        transition: 0.3s all
+    &::after 
+      content: ''
+      position: absolute
+      right: 0
+      left: 0
+      bottom: 0
+      height: 2px
+      width: 0
+      background: #333333
+      transition: width 0.3s
+    
+  
+
+
+.header
+  &-logo
+    max-width: 60px
+    max-height: 45px

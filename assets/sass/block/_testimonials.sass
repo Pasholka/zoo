@@ -1,0 +1,137 @@
+.testimonials
+    margin-top: 100px
+    margin-bottom: 100px
+    &-title 
+        padding-bottom: 50px
+        &::first-letter
+            text-transform: uppercase
+    &-img 
+        width: 70px
+        height: 70px
+        border: 1px solid red
+        border-radius: 50%
+        object-fit: cover
+        margin-top: 50px
+    &-card 
+        background: #FEFEFE
+        box-shadow: 2px 4px 15px rgba(6, 12, 70, 0.1)
+        border-radius: 5px
+        margin-left: 50px
+    &-subtitle 
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 1.2
+        color: #4F4F4F
+        max-width: 440px
+        margin: 0 auto
+        padding-top: 20px
+        padding-bottom: 100px
+        padding-right: 15px
+        padding-left: 15px
+    &-title 
+        font-style: normal
+        font-weight: 900
+        font-size: 20 px
+        line-height: 1.2
+        text-align: center
+        color: #333333
+        padding-top: 20px
+    &-favorite
+        &__wrap
+            text-align: center
+            padding-top: 30px
+        &__button
+            text-transform: uppercase
+            font-weight: 900
+            font-size: 18px
+            line-height: 1.2
+            text-align: center
+            text-transform: uppercase
+            color: #FFFFFF
+            padding: 18px
+            background: #49D6D5
+            
+            display: inline-block
+// .testimonials-slider 
+//   overflow: hidden
+//   display: flex
+//   justify-content: center
+//   align-items: center
+
+
+// .testimonials-card 
+//   flex: 0 0 auto
+//   margin: 0 10px
+
+
+
+
+
+
+.testimonials-slider
+    text-align: center
+.testimonials-slider .slick-dots
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+        z-index: 10
+        margin-top: 70px
+        & button
+            font-size: 0px
+            width: 30px
+            height: 5px
+            background: rgba(189, 189, 189, 0.57)
+            border: none
+.testimonials-slider .slick-active
+        & button
+            background-color: #333333
+            border: solid #333333 1px
+            width: 30px
+            height: 10px
+.testimonials-slider
+    position: relative
+.testimonials-slider .slick-arrow
+    position: absolute
+    top: 50%
+    margin: -50px 0px 0px 0px
+    z-index: 10
+    font-size: 0px
+    width: 30px
+    height: 30px
+    border: none
+    background: inherit
+.testimonials-slider .slick-prev
+    background-image: url('/assets/image/pets-slider-prev.svg')
+    background-repeat: no-repeat
+    left: -20px
+.testimonials-slider .slick-next
+    right: -20px
+    background-image: url('/assets/image/pets-slider-next.svg')
+    background-repeat: no-repeat
+.testimonials-slider .slick-list
+    padding: 0  !important
+.slider-testimonials-dots
+    position: absolute
+    bottom: 30px
+    right: 0px
+    left: 0px
+    text-align: center
+.slider-testimonials-counter
+    position: relative
+.current-testimonials-slide
+    font-weight: 900
+    font-size: 24px
+    line-height: 28px
+    color: #333333
+.slider-testimonials-slash
+    font-weight: 900
+    font-size: 24px
+    line-height: 28px
+    color: #333333
+.total-testimonials-slides
+    font-weight: 900
+    font-size: 14px
+    line-height: 16px
+    color: #BDBDBD

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>zoo</title>
+</head>
+<body>
+    <!-- <div id="preloader">
+        <img id="preloader-image" src="/assets/image/prealoder.gif" alt="Loading">
+      </div>
+       -->
+      
+      
+<header>
+    <section class="nav-wrapper">
+        <div class="container-fluid d-flex justify-content-around align-items-center">
+            <div class="header-logo-wrap">
+                <a href="#">
+                    <img id="logo" src="assets/image/logo-header.svg" alt="Логотип">
+                    <!-- <img id="logo" src="" alt="" class="header-logo"> -->
+                </a>
+            </div>
+            <div class="nav">
+                <ul class="nav-list d-flex gap-5">
+                    <li><a href="#" class="nav-item">About</a></li>
+                    <li><a href="#" class="nav-item">Zoos</a></li>
+                    <li><a href="#" class="nav-item">Map</a></li>
+                    <li><a href="#" class="nav-item">Contact Us</a></li>
+                    <li><a href="#" class="nav-item">Design</a></li>
+                </ul>
+            </div>
+            
+            <div class="toggle">
+                <input type="checkbox" id="toggle-switch">
+                <label for="toggle-switch"></label>
+            </div>
+            <div class="burger">
+                <div class="burger-menu">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class="menu-btn" for="menu-toggle">
+                      <span></span>
+                    </label>
+                 
+                    <ul class="menubox">
+                            <li><a class="menu-item" href="#">Home</a></li>
+                            <li><a class="menu-item" href="#">About us</a></li>
+                            <li><a class="menu-item" href="#">Blog</a></li>
+                            <li><a class="menu-item" href="#">Articles</a></li>
+                            <li><a class="menu-item" href="#">Contacts</a></li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </section>
+</header>
+<main>
+    <section class="hero">
+        <div class="container-fluid hero-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-xl-8">
+                            <div class="hero-wrapper">
+                                <h1 class="hero-title">watch your favorite animal online</h1>
+                            </div>
+                        <div class="hero-wrapper-link">
+                            <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="fancybox online-btn">
+                                <img src="assets/image/btn.svg" alt="" class="online-play"> watch online</a>
+                       
+                        </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 col-lg-5"></div>
+                    <div class="col-sm-11 col-12 col-lg-7">
+                        <div class="hero-slider">
+                            <div class="hero-card">
+                                <img src="assets/image/hero-eagle.jpg" alt="" class="hero-img">
+                                <p class="hero-img-title">Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                <div class="hero-card-donat-wrap d-flex flex-md-row flex-column">
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__online fancybox"><img src="assets/image/hero-card__online.svg" alt="" class="hero-card__online__btn"> watch online</a>
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__donate fancybox"><img src="assets/image/donate.svg" alt="" class="hero-card__donate__btn"> Donate</a>
+                                </div>
+                            </div>
+                            <div class="hero-card">
+                                <img src="assets/image/hero-crocodile.jpg" alt="" class="hero-img">
+                                <p class="hero-img-title">Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                    <div class="hero-card-donat-wrap">
+                                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__online fancybox"><img src="assets/image/hero-card__online.svg" alt="" class="hero-card__online__btn"> watch online</a>
+                                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__donate fancybox"><img src="assets/image/donate.svg" alt="" class="hero-card__donate__btn"> Donate</a>
+                                    </div>
+                            </div>
+                            <div class="hero-card">
+                                <img src="assets/image/hero-elephant.jpg" alt="" class="hero-img">
+                                <p class="hero-img-title">Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                    <div class="hero-card-donat-wrap">
+                                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__online fancybox"><img src="/assets/image/hero-card__online.svg" alt="" class="hero-card__online__btn"> watch online</a>
+                                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__donate fancybox"><img src="/assets/image/donate.svg" alt="" class="hero-card__donate__btn"> Donate</a>
+                                    </div>
+                            </div>
+                            <div class="hero-card">
+                                <img src="/assets/image/hero-fox.jpg" alt="" class="hero-img">
+                                <p class="hero-img-title">Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                    <div class="hero-card-donat-wrap">
+                                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__online fancybox"><img src="assets/image/hero-card__online.svg" alt="" class="hero-card__online__btn"> watch online</a>
+                                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__donate fancybox"><img src="assets/image/donate.svg" alt="" class="hero-card__donate__btn"> Donate</a>
+                                    </div>
+                            </div>
+                            <div class="hero-card">
+                                <img src="assets/image/hero-monkey.jpg" alt="" class="hero-img">
+                                <p class="hero-img-title">Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                    <div class="hero-card-donat-wrap">
+                                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__online fancybox"><img src="assets/image/hero-card__online.svg" alt="" class="hero-card__online__btn"> watch online</a>
+                                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__donate fancybox"><img src="assets/image/donate.svg" alt="" class="hero-card__donate__btn"> Donate</a>
+                                    </div>
+                            </div>
+                            <div class="hero-card">
+                                <img src="assets/image/hero-monkey.jpg" alt="" class="hero-img">
+                                <p class="hero-img-title">Panda’s name is Bei Bei. He 
+                                    is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                    <div class="hero-card-donat-wrap">
+                                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__online fancybox"><img src="assets/image/hero-card__online.svg" alt="" class="hero-card__online__btn"> watch online</a>
+                                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="hero-card__donate fancybox"><img src="assets/image/donate.svg" alt="" class="hero-card__donate__btn"> Donate</a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="slider-counter">
+                          <div class="slider-progress"></div>
+                          <div class="slider-dots">
+                            <span class="current-slide">1</span><span class="slider-slash">/</span><span class="total-slides">1</span>
+                          </div>
+                        </div>
+                      </div>
+                      
+                </div>
+           <div class="container-fluid">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-1">
+                    <div class="hero-social d-flex flex-column">
+                        <a href="#" target="_blank" class="hero-social__link fa-brands fa-instagram"></a>
+                        <a href="#" target="_blank" class="hero-social__link fa-brands fa-twitter"></a>
+                        <a href="#" target="_blank" class="hero-social__link fa-brands fa-youtube"></a>
+                        <a href="#" target="_blank" class="hero-social__link fa-brands fa-facebook"></a>
+                        
+                    </div>
+                </div>
+            </div>
+           </div>
+           <!-- /.container-fluid -->
+        </div>
+    </section>
+    <section class="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-12 col-md-8">
+                    <h2 class="work-title">How it works?</h2>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-12 col-md-8">
+                    <p class="work-text">
+                        As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat, and we are determined to assist in all aspects, including providing veterinary support and raising much-needed emergency funds. Zoo Online saves wildlife and inspires everyone to make conservation a priority in their lives. Animals have the right to a pain-free and happy life. They have equal claim to the resources of this planet, and deserve a life of dignity and compassion.As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.
+                    </p>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-12 col-md-8">
+                    <div class="work-slide">
+                        <div class="work-slide__item">
+                            <img src="assets/image/work-slide1.jpg" alt="" class="work-slide__image">
+                        </div>
+                        <div class="work-slide__item">
+                            <img src="assets/image/work-slide2.jpg" alt="" class="work-slide__image">
+                        </div>
+                        <div class="work-slide__item">
+                            <img src="assets/image/work-slide3.jpg" alt="" class="work-slide__image">
+                        </div>
+                        <div class="work-slide__item">
+                            <img src="assets/image/work-slide4.jpg" alt="" class="work-slide__image">
+                        </div>
+                    </div>
+                    <div class="slider-work-counter">
+                        <div class="slider-work-progress"></div>
+                        <div class="slider-work-dots">
+                          <span class="current-work-slide">1</span><span class="slider-work-slash">/</span><span class="total-work-slides">1</span>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="work-wrap">
+                        <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="fancybox online-btn">
+                            <img src="assets/image/btn.svg" alt="" class="online-play"> watch online</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <section class="motivation">
+        <div class="container">
+            <div class="row text-center align-items-center flex-column flex-lg-row">
+                <div class="col-12 col-md-4">
+                    <div class="motivation-card text-center">
+                        <img src="assets/image/motivation1.png" alt="" class="motivation-card__img">
+                        <h3 class="motivation-card__title">what inspires us?</h3>
+                        <p class="motivation-card__text">As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat, and we are determined to assist in all aspects.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="motivation-card text-center">
+                        <img src="assets/image/motivation2.png" alt="" class="motivation-card__img">
+                        <h3 class="motivation-card__title">Our mission</h3>
+                        <p class="motivation-card__text">Zoo Online saves wildlife and inspires everyone to make conservation a priority in their lives.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="motivation-card text-center">
+                        <img src="assets/image/motivation3.png" alt="" class="motivation-card__img">
+                        <h3 class="motivation-card__title">What we believe in?</h3>
+                        <p class="motivation-card__text">Animals have the right to a pain-free and happy life. They have equal claim to the resources of this planet, and deserve a life of dignity and compassion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <section class="pets">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="pets-title text-center">
+                        pets in zoo
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="pets-slider">
+                        <div class="pets-card">
+                            <img src="assets/image/pets1.jpg" alt="" class="pets-card__img">
+                            <p class="pets-card__title">Panda’s name is Bei Bei. He 
+                                is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                <div class="pets-card-donat d-flex flex-around flex-column flex-xxl-row gap-2">
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="pets-card__online fancybox"><img src="assets/image/hero-card__online.svg" alt="" class="pets-card__online__btn"> watch online</a>
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="pets-card__donate fancybox"><img src="assets/image/donate.svg" alt="" class="pets-card__donate__btn"> Donate</a>
+                                </div>
+                        </div>
+                        <div class="pets-card">
+                            <img src="assets/image/pets2.jpg" alt="" class="pets-card__img">
+                            <p class="pets-card__title">Panda’s name is Bei Bei. He 
+                                is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                <div class="pets-card-donat d-flex flex-around flex-column flex-xxl-row gap-2">
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="pets-card__online fancybox"><img src="assets/image/hero-card__online.svg" alt="" class="pets-card__online__btn"> watch online</a>
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="pets-card__donate fancybox"><img src="assets/image/donate.svg" alt="" class="pets-card__donate__btn"> Donate</a>
+                                </div>
+                        </div>
+                        <div class="pets-card">
+                            <img src="assets/image/pets3.jpg" alt="" class="pets-card__img">
+                            <p class="pets-card__title">Panda’s name is Bei Bei. He 
+                                is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                <div class="pets-card-donat d-flex flex-around flex-column flex-xxl-row gap-2">
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="pets-card__online fancybox"><img src="assets/image/hero-card__online.svg" alt="" class="pets-card__online__btn"> watch online</a>
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="pets-card__donate fancybox"><img src="assets/image/donate.svg" alt="" class="pets-card__donate__btn"> Donate</a>
+                                </div>
+                        </div>
+                        <div class="pets-card">
+                            <img src="assets/image/pets4.jpg" alt="" class="pets-card__img">
+                            <p class="pets-card__title">Panda’s name is Bei Bei. He 
+                                is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                <div class="pets-card-donat d-flex flex-around flex-column flex-xxl-row gap-2">
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="pets-card__online fancybox"><img src="assets/image/hero-card__online.svg" alt="" class="pets-card__online__btn"> watch online</a>
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="pets-card__donate fancybox"><img src="assets/image/donate.svg" alt="" class="pets-card__donate__btn"> Donate</a>
+                                </div>
+                        </div>
+                        <div class="pets-card">
+                            <img src="assets/image/pets5.jpg" alt="" class="pets-card__img">
+                            <p class="pets-card__title">Panda’s name is Bei Bei. He 
+                                is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                                <div class="pets-card-donat d-flex flex-around flex-column flex-xxl-row gap-2">
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="pets-card__online fancybox"><img src="assets/image/hero-card__online.svg" alt="" class="pets-card__online__btn"> watch online</a>
+                                    <a href="https://www.youtube.com/embed/4s1NWteHNu4" class="pets-card__donate fancybox"><img src="assets/image/donate.svg" alt="" class="pets-card__donate__btn"> Donate</a>
+                                </div>
+                        </div>
+                        
+                    </div>
+                    <div class="slider-pets-counter">
+                        <div class="slider-pets-progress"></div>
+                        <div class="slider-pets-dots">
+                          <span class="current-pets-slide">1</span><span class="slider-pets-slash">/</span><span class="total-pets-slides">5</span>
+                        </div>
+                    </div>
+                    <div class="pets-favorite__wrap">
+                        <a target="_blank" href="#" class="pets-favorite__button">Choose your favorite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <section class="pay">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="pay-title text-center">pay and feed</h2>
+                    <p class="pay-subtitle text-center">The opportunity to easily and naturally (but as often as possible) donate to the needs of animals that you like.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="pay-wrap flex-xl-row flex-column d-flex justify-content-between">
+                        <div class="pay-card">
+                            <img src="assets/image/pay-ellipse.svg" alt="" class="pay-card__img">
+                            <img src="assets/image/pay-money.svg" alt="" class="pay-card__img__money">
+                            <p class="pay-card__text">You pay with a VISA card</p>
+                        </div>
+                        <div class="pay-arrow__wrap">
+                            <img src="assets/image/pay-arrow.svg" alt="" class="pay-arrow">
+                        </div>
+                        <div class="pay-card">
+                            <img src="assets/image/pay-ellipse.svg" alt="" class="pay-card__img">
+                            <img src="assets/image/pay-money.svg" alt="" class="pay-card__img__money">
+                            <p class="pay-card__text">You pay with a VISA card</p>
+                        </div>
+                        <div class="pay-arrow__wrap">
+                            <img src="assets/image/pay-arrow.svg" alt="" class="pay-arrow">
+                        </div>
+                        <div class="pay-card">
+                            <img src="assets/image/pay-ellipse.svg" alt="" class="pay-card__img">
+                            <img src="assets/image/pay-money.svg" alt="" class="pay-card__img__money">
+                            <p class="pay-card__text">You pay with a VISA card</p>
+                        </div>
+                    </div>
+                    <!-- /.pay-wrap -->
+                    <div class="pay-button__wrap text-center">
+                        <a target="_blank" href="#" class="pay-button">donate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <section class="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="testimonials-title">
+                        testimonials
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonials-slider">
+                        <div class="testimonials-card text-center">
+                            <img src="assets/image/testimonials-nastya.jpg" alt="" class="testimonials-img">
+                            <p class="testimonials-title">Nastya Sidorova</p>
+                            <p class="testimonials-subtitle">As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.</p>
+                        </div>
+                        <div class="testimonials-card text-center">
+                            <img src="assets/image/testimonials-vlad.jpg" alt="" class="testimonials-img">
+                            <p class="testimonials-title">Vlad Kim</p>
+                            <p class="testimonials-subtitle">As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.</p>
+                        </div>
+                        <div class="testimonials-card text-center">
+                            <img src="assets/image/testimonials-elis.jpg" alt="" class="testimonials-img">
+                            <p class="testimonials-title">Eliza Orova</p>
+                            <p class="testimonials-subtitle">As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.</p>
+                        </div>
+                    </div>
+                    <div class="slider-testimonials-counter">
+                        <div class="slider-testimonials-progress"></div>
+                        <div class="slider-testimonials-dots">
+                          <span class="current-testimonials-slide">1</span><span class="slider-testimonials-slash">/</span><span class="total-testimonials-slides">5</span>
+                        </div>
+                    </div>
+                    <div class="testimonials-favorite__wrap">
+                        <a target="_blank" href="#" class="testimonials-favorite__button">Choose your favorite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+</main>
+<footer>
+    <section class="footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="row flex-column flex-lg-row text-center">
+                    <div class="col-12 col-lg-6 text-start">
+                        <img src="assets/image/logo-header-white.svg" alt="" class="footer-wrap__logo">
+                        <div class="footer-contact">
+                            <p class="footer-contact__title">
+                                Contact us
+                            </p>
+                            <form action="#" class="footer-form d-flex flex-column gap-3">
+                                <input class="footer-form__name" type="text" placeholder="name">
+                                <input class="footer-form__email" type="email" placeholder="email">
+                                <textarea class="footer-form__textarea" name="message" placeholder="Please enter your message"></textarea>
+                                <label>
+                                    <input type="checkbox" id="agreementCheckbox">
+                                    I agree to the processing of Personal Data
+                                  </label>
+                                  <button id="submitButton" disabled class="footer-wrap__button">send <img src="assets/image/footer_arrow.png" alt="" class="footer-button"></button>
+                                  
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-12 col-lg-5">
+                        <div class="footer-menu">
+                            <ul class="footer-list d-flex flex-row justify-content-between">
+                                <li><a href="#" class="footer-item">About</a></li>
+                                <li><a href="#" class="footer-item">Zoos</a></li>
+                                <li><a href="#" class="footer-item">Map</a></li>
+                                <li><a href="#" class="footer-item">Design</a></li>
+                            </ul>
+                        </div>
+                        <p><a href="#" class="footer-online">ZOO Online Centre</a></p>
+                        <div class="col-12">
+                            <ul class="footer-adress__list d-flex flex-column gap-3">
+                                <li><a href="#" class="footer-adress__item">132, Address District, Street Open Daily 10:00 am - 5:00 pm</a></li>
+                                <li><a href="#" class="footer-adress__item">T(702) 163-3433 zoo.online@gmail.com</a></li>
+                                <ul class="footer-social__list d-flex flex-row gap-4">
+                                    <li><a href="#" class="footer-social__item fa-brands fa-instagram"></a></li>
+                                    <li><a href="#" class="footer-social__item fa-brands fa-twitter"></a></li>
+                                    <li><a href="#" class="footer-social__item fa-brands fa-facebook"></a></li>
+                                    <li><a href="#" class="footer-social__item fa-brands fa-youtube"></a></li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <a href="#" class="footer-button__link">donate for volunteers</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-6 col-xl-2 col-lg-3 col-md-4 col-sm-5">
+                        <p class="footer-copy">©Noora Sagnayeva
+                            ©RSSchool and ©Yem Digital - 2021</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.footer-wrap -->
+        </div>
+        <!-- /.container -->
+    </section>
+    
+    
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script>
+        jQuery(".fancybox").fancybox(); 
+    </script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/42e2cda77f.js" crossorigin="anonymous"></script>
+    <script src="assets/js/myjs.js"></script>
+</body>
+</html>
+

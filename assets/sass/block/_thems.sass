@@ -1,0 +1,83 @@
+
+.light-theme .toggle label:before 
+  /* Стили для светлой темы */
+  background-color: #fff
+
+.dark-theme .toggle label:before 
+  /* Стили для тёмной темы */
+  background-color: #000000
+
+.toggle input[type="checkbox"]:checked + label 
+  background-color: #4F4F4F
+
+.toggle input[type="checkbox"]:checked + label:before 
+  left: 27px 
+
+/* Стили для светлой темы */
+.light-theme .nav-item 
+  color: #333333
+.light-theme .current-work-slide
+  color: #333333
+
+/* Стили для темной темы */
+.dark-theme .nav-item 
+  color: #FEFEFE
+.dark-theme .nav-item:hover
+      color: #fff
+      &::after
+        width: 100%
+        transition: 0.3s all
+.dark-theme .nav-item::after 
+      content: ''
+      position: absolute
+      right: 0
+      left: 0
+      bottom: 0
+      height: 2px
+      width: 0
+      background: #FEFEFE
+      transition: width 0.3s
+.dark-theme .current-work-slide
+  color: #fff
+.dark-theme  .slider-work-slash
+  color: #fff
+.dark-theme  .total-work-slides
+  color: #BDBDBD
+.dark-theme .work-slide .slick-dots button
+    background: #BDBDBD
+.dark-theme .work-slide .slick-active
+       & button
+            background-color: #FEFEFE
+            border: solid #FEFEFE 1px
+.dark-theme .motivation
+  background: #4F4F4F
+.dark-theme .pets-slider .slick-active
+       & button
+            background-color: #FEFEFE
+            border: solid #FEFEFE 1px
+.dark-theme .current-pets-slide
+  color: #fff
+.dark-theme .slider-pets-slash
+  color: #fff
+.dark-theme .pay
+  background: #4F4F4F
+.dark-theme .pay-subtitle
+  color: #F2F2F2
+.dark-theme .pay-card__text
+  color: #F2F2F2
+.dark-theme .testimonials-title
+  color: #FEFEFE
+.dark-theme .testimonials-slider .slick-active
+       & button
+            background-color: #FEFEFE
+            border: solid #FEFEFE 1px
+.dark-theme .current-testimonials-slide
+  color: #fff
+.dark-theme .slider-testimonials-slash
+  color: #fff
+.dark-theme .testimonials-card
+  background: #3C3C3C
+.dark-theme .testimonials-subtitle
+  color: #F2F2F2
+.dark-theme .footer
+  background: #4F4F4F
