@@ -305,7 +305,7 @@ body.loaded #preloader {
 }
 
 .hero-bg {
-  background-image: url("/assets/image/hero-bg.jpg");
+  background-image: url("assets/image/hero-bg.jpg");
   background-repeat: no-repeat;
   width: 100%;
   min-height: 940px;
@@ -336,7 +336,7 @@ body.loaded #preloader {
 }
 .hero-slider::before {
   content: "";
-  background-image: url("/assets/image/hero-line.png");
+  background-image: url("assets/image/hero-line.png");
   display: block;
   width: 120%;
   height: 20px;
@@ -744,14 +744,14 @@ body.loaded #preloader {
 }
 
 .pets-slider .slick-prev {
-  background-image: url("/assets/image/pets-slider-prev.svg");
+  background-image: url("assets/image/pets-slider-prev.svg");
   background-repeat: no-repeat;
   left: -20px;
 }
 
 .pets-slider .slick-next {
   right: -20px;
-  background-image: url("/assets/image/pets-slider-next.svg");
+  background-image: url("assets/image/pets-slider-next.svg");
   background-repeat: no-repeat;
 }
 
@@ -972,14 +972,14 @@ body.loaded #preloader {
 }
 
 .testimonials-slider .slick-prev {
-  background-image: url("/assets/image/pets-slider-prev.svg");
+  background-image: url("assets/image/pets-slider-prev.svg");
   background-repeat: no-repeat;
   left: -20px;
 }
 
 .testimonials-slider .slick-next {
   right: -20px;
-  background-image: url("/assets/image/pets-slider-next.svg");
+  background-image: url("assets/image/pets-slider-next.svg");
   background-repeat: no-repeat;
 }
 
@@ -1210,7 +1210,7 @@ body.loaded #preloader {
 @media screen and (max-width: 1200px) {
   .pay-arrow {
     /* Укажите новый путь к изображению для первой карты */
-    content: url("/assets/image/Arrow1200.svg");
+    content: url("assets/image/Arrow1200.svg");
     padding-top: 80%;
     padding-bottom: 80%;
   }
