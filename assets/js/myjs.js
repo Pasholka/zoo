@@ -43,10 +43,10 @@ document.getElementById('toggle-switch').addEventListener('change', function() {
   let logo = document.getElementById('logo');
 
   if (this.checked) {
-    logo.src = '/assets/image/logo-header-white.svg';
+    logo.src = 'assets/image/logo-header-white.svg';
     
   } else {
-    logo.src = '/assets/image/logo-header.svg';
+    logo.src = 'assets/image/logo-header.svg';
   }
 });
 
