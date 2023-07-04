@@ -1210,7 +1210,7 @@ body.loaded #preloader {
 @media screen and (max-width: 1200px) {
   .pay-arrow {
     /* Укажите новый путь к изображению для первой карты */
-    content: url("assets/image/Arrow1200.svg");
+    content: url("../image/Arrow1200.svg");
     padding-top: 80%;
     padding-bottom: 80%;
   }
