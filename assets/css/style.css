@@ -1226,6 +1226,9 @@ body.loaded #preloader {
   .footer-menu {
     padding-top: 40px;
   }
+  #preloader-image {
+    width: 80%
+  }
 }
 @media screen and (max-width: 768px) {
   .pets-card__img {
@@ -1254,6 +1257,9 @@ body.loaded #preloader {
   }
   .pay-subtitle {
     display: none !important;
+  }
+  #preloader-image {
+    width: 70%
   }
 }
 @media screen and (max-width: 640px) {
@@ -1284,6 +1290,9 @@ body.loaded #preloader {
   .hero-slider .slick-dots {
     margin-top: 30px;
   }
+  #preloader-image {
+    width: 60%
+  }
 }
 @media screen and (max-width: 576px) {
   .testimonials-slider .slick-next {
@@ -1294,6 +1303,9 @@ body.loaded #preloader {
   }
   h2 {
     font-size: 36px;
+  }
+  #preloader-image {
+    width: 55%
   }
 }
 @media screen and (max-width: 359px) {
