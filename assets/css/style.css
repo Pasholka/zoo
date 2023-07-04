@@ -1311,9 +1311,9 @@ body.loaded #preloader {
     -o-object-position: left;
        object-position: left;
   }
-  #preloader 
-        width: 50%
-        height: 50%
+  #preloader-image {
+    width: 50%
+  }
 }
 .menu-btn {
   display: flex;
