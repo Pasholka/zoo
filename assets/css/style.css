@@ -972,14 +972,14 @@ body.loaded #preloader {
 }
 
 .testimonials-slider .slick-prev {
-  background-image: url("assets/image/pets-slider-prev.svg");
+  background-image: url("../image/pets-slider-prev.svg");
   background-repeat: no-repeat;
   left: -20px;
 }
 
 .testimonials-slider .slick-next {
   right: -20px;
-  background-image: url("assets/image/pets-slider-next.svg");
+  background-image: url("../image/pets-slider-next.svg");
   background-repeat: no-repeat;
 }
 
