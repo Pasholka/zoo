@@ -305,7 +305,7 @@ body.loaded #preloader {
 }
 
 .hero-bg {
-  background-image: url("assets/image/hero-bg.jpg");
+  background-image: url("../image/hero-bg.jpg");
   background-repeat: no-repeat;
   width: 100%;
   min-height: 940px;
