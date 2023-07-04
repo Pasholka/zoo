@@ -336,7 +336,7 @@ body.loaded #preloader {
 }
 .hero-slider::before {
   content: "";
-  background-image: url("assets/image/hero-line.png");
+  background-image: url("../image/hero-line.png");
   display: block;
   width: 120%;
   height: 20px;
